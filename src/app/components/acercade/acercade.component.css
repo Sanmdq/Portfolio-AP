@@ -1,0 +1,30 @@
+.row {
+    padding: 20px;
+}
+div {
+    background-color: aquamarine;
+    text-align: center;
+}
+@media (min-width: 576px){
+    #foto {
+        position: absolute;
+        width: 65%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px grey;
+        left: 3%;
+        top: 50px;
+    }
+}
+@media (max-width: 575px){
+    #foto {
+        position: absolute;
+        width: 35%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px grey;
+        left: 33%;
+        top: 30px;
+    }
+}
+#nombre {
+    font-weight: bold;
+}
