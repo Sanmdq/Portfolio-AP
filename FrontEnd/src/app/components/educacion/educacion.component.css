@@ -7,3 +7,50 @@ div {
 h1, h3 {
     display: inline;
 }
+
+/* contenedores redondeados */
+.mat-card {
+	border-radius: 32px;
+	margin: 10px 10px;
+	padding: 20px;
+	border-color: black;
+}
+
+/* formato de las listas */
+div#info-data ul#info-details li a {
+	color: black;
+	display: flex;
+	text-decoration: none;
+}
+
+div#info-data ul#info-details li a h2 {
+	font-size: 1rem;
+	font-weight: 500;
+	align-self: center;
+	vertical-align: baseline;
+}
+
+div#info-data ul#info-details li a img {
+	width: 32px;
+	height: 32px;
+	margin-right: 8px;
+}
+
+ul.items-list {
+	list-style: none inside;
+}
+ul.items-list li {
+	display: flex;
+	margin: 10px 0;
+}
+
+ul.items-list li div.data-container {
+	flex-grow: 1;
+}
+
+ul.items-list li div.data-container a {
+	display: flex;
+	color: black;
+}
+
+

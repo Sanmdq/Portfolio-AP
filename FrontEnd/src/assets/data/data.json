@@ -1,0 +1,23 @@
+{
+    "nombre": "Sandra Beatriz André",
+    "imagenFondo": "../../../assets/banner-portfolio-2.jpg",
+    "imagen": "../assets/foto-cara-2.jpg",
+    "titulo": "Abogada y Desarrolladora Full Stack",
+    "educacion": [{
+        "colegio": "Universidad de Mar del Plata",
+        "imagen": "../assets/logo-umdp.png"
+    },{
+        "colegio": "Argentina Programa",
+        "imagen": "../assets/logo-argentinaprograma.png"
+    }],
+    "expLaboral": [{
+        "empresa": "La Ley Thompson Reuters",
+        "imagen": "../assets/logo-laley.png"
+    }       
+    ],
+    "objetivos": [{
+        "texto": "Aprender a programar"
+    },{
+        "texto": "Especializarme en desarrollo web"
+    }]
+}
