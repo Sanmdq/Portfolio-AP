@@ -2,7 +2,7 @@
     padding: 20px;
 }
 div {
-    background-color: aquamarine;
+    background-color: royalblue;
     text-align: center;
 }
 @media (min-width: 576px){
@@ -26,5 +26,6 @@ div {
     }
 }
 #nombre {
+    font-size: 32px;
     font-weight: bold;
 }

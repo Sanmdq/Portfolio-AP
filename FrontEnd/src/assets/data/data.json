@@ -7,6 +7,9 @@
         "colegio": "Universidad de Mar del Plata",
         "imagen": "../assets/logo-umdp.png"
     },{
+        "colegio": "Instituto Goethe",
+        "imagen": "../assets/logo-goethe.png"
+    },{
         "colegio": "Argentina Programa",
         "imagen": "../assets/logo-argentinaprograma.png"
     }],

@@ -1,3 +1,4 @@
+<!--
 <div class="card mat-card">
     <div class="card-titles">
       <h2>Educación</h2>
@@ -13,22 +14,18 @@
       </div>
     </div>			
 </div>
+-->
 
 <div class="row">
-    <h1>Educación</h1>
-    <div class="col-lg-1"></div>
-    <div class="col-lg-11">
-        <ul>
-            <li><h1>Educación 1</h1> -<h1>(años)</h1></li>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat, voluptate officia. Eum, soluta. Reprehenderit ab dignissimos cumque? Facilis ut totam necessitatibus officia eos. Officiis adipisci ducimus accusantium illo eligendi laborum!</p>
-        </ul>
-        <ul>    
-            <li><h1>Educación 2</h1> -<h1>(años)</h1></li>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat, voluptate officia. Eum, soluta. Reprehenderit ab dignissimos cumque? Facilis ut totam necessitatibus officia eos. Officiis adipisci ducimus accusantium illo eligendi laborum!</p>
-        </ul>
-        <ul>    
-            <li><h1>Educación 3</h1> -<h1>(años)</h1></li>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat, voluptate officia. Eum, soluta. Reprehenderit ab dignissimos cumque? Facilis ut totam necessitatibus officia eos. Officiis adipisci ducimus accusantium illo eligendi laborum!</p>
-        </ul>
-    </div>
-</div>
+  <h1>Educación</h1>
+  <div id="info-data">
+    <ul id="info-details">
+      <li *ngFor="let educaciones of educacionLista">
+        <a href="#">
+        <img [src]='educaciones.imagen'>
+        <h3>{{educaciones.colegio}}</h3>
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>			

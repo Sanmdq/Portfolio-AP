@@ -1,0 +1,14 @@
+.row {
+    padding: 20px;
+}
+
+div {
+    background-color: gray;
+    height: 100px;
+    text-align: center;
+}
+
+p {
+    color: black;
+}
+
