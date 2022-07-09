@@ -1,7 +1,9 @@
 .row {
-    padding: 20px;
+	padding: 20px;
 }
 div {
+	display: flex;
+	justify-content: center;
     background: seagreen;
 }
 h1, h3 {
