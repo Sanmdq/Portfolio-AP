@@ -11,5 +11,5 @@ app.get('/*', (req, res) => {
 });
 
 app.listen(PORT, () => {
-    console.log('Servidor iniciando en puerto '+ PORT);
+    console.log('Servidor se está iniciando en puerto '+ PORT);
 });
