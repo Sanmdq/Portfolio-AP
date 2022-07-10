@@ -17,6 +17,7 @@ import { ProyectosComponent } from './components/proyectos/proyectos.component';
 import { PortfolioService } from './services/portfolio.service';
 import { HttpClientModule } from '@angular/common/http';
 import { FooterComponent } from './components/footer/footer.component';
+
  
 @NgModule({
   declarations: [
